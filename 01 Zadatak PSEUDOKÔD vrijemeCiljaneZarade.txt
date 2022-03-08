@@ -1,0 +1,47 @@
+01 Zadatak PSEUDOKÔD vrijemeCiljaneZarade.txt
+==========================================
+1. zadatak poslodavca: Partner banka
+==========================================
+== Upotreba tehnologija
+	HTML CSS Javascript
+	
+== PSEUDOKÔD HTML
+Sastavi web-obrazac koju obuhvaća
+	Polja		
+		Neto-plaća
+		Broj radnih dana
+		Željeni iznos zarade
+	Dugme
+		Izračunaj 
+			vrijeme potrebno za željenu zaradu
+
+== PSEUDOKÔD CSS
+Oblikuj stranicu i njezine elemente
+	Minimalistički prijelom
+	Minimalistički izgled
+
+== PSEUDOKÔD Javascript
+Sastavi Javascript-kôd koju obuhvaća
+	Konstante
+		brojRadnihDanaMjesečno
+		brojRadnihSatiDnevno
+	Varijable
+		ukupnoSatiRada
+		cijeliDaniRada
+		cijeliSatiRada
+	Funkcije		
+		Odredi konstante
+		Očitaj unesene vrijednosti i spremi u varijable
+		Izračunaj ukupne sate željene zarade
+		Pretvori ukupne sate u dane i sate
+	API
+
+
+
+
+
+
+VrijednostSata=NetoPlaća/BrojRadnihDana/8
+PotrebnoSatiRada=CiljaniIznos/VrijednostSata
+IskazDana=PotrebnoSatiRada/8
+IskazSati=PotrebnoSatiRada-IskazDana*8
